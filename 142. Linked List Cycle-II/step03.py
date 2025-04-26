@@ -1,10 +1,10 @@
 class Solution:
-    def hasCycle(self, head: Optional[ListNode]) -> bool:
+    def detectCycle(self, head: Optional[ListNode]) -> bool:
         visited_nodes = set()
         node = head
         while node:
             if node in visited_nodes:
-                return True
+                return node
             visited_nodes.add(node)
             node = node.next
-        return False
+        return None
