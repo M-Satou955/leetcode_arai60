@@ -1,4 +1,4 @@
-# 1412. Linked List Cycle-II 　
+# 142. Linked List Cycle-II 　
 
 - https://leetcode.com/problems/linked-list-cycle/description/
 
